@@ -1,0 +1,19 @@
+.expenses{
+    padding: 1rem;
+    background-color: rgb(31, 31, 31);
+    margin: 2rem auto;
+    width: 50rem;
+    /* max-width: 100%; */
+
+}
+.expense-message {
+    color: white;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+
+@media (max-width: 855px){
+    .expenses{
+        width: auto;
+    }
+}
